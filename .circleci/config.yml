@@ -1,4 +1,4 @@
-wonderful-amazementdversion: '2.1'
+version: '2.1'
 orbs:
   node: circleci/node@5.1.0
 
@@ -41,7 +41,7 @@ tags_only: &tags_only
       only: /^.*/
 
 workflows:
-  version: 1
+  version: 
   deploy_pipeline:
     jobs:
       - deploy_app_to_railway:
