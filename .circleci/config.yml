@@ -29,8 +29,7 @@ jobs:
           name: Deploy to Railway App
           command: |
             cd bankchurn-api 
-            railway up --service=wonderful-amazement
-            railway up --ci  --detach
+            railway up --service=wonderful-amazement --ci --detach
 
 
 tags_only: &tags_only
